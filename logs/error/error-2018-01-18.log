@@ -1,0 +1,50 @@
+[2018-01-18T15:48:46.035] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/interface/delete?ID=fghjk66
+request client ip:  ::1
+request query:  {"ID":"fghjk66"}
+response time: 5718
+err name: CastError
+err message: Cast to ObjectId failed for value "fghjk66" at path "_id" for model "Interface"
+err stack: CastError: Cast to ObjectId failed for value "fghjk66" at path "_id" for model "Interface"
+    at MongooseError.CastError (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\error\cast.js:27:11)
+    at ObjectId.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1064:15)
+    at ObjectId.castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1021:15)
+    at cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\cast.js:269:32)
+    at Query.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:3109:12)
+    at Query._castConditions (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1145:10)
+    at Query._findOne (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1352:8)
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:250:8
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2018-01-18T15:48:57.184] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/interface/delete?ID=fg
+request client ip:  ::1
+request query:  {"ID":"fg"}
+response time: 2283
+err name: CastError
+err message: Cast to ObjectId failed for value "fg" at path "_id" for model "Interface"
+err stack: CastError: Cast to ObjectId failed for value "fg" at path "_id" for model "Interface"
+    at MongooseError.CastError (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\error\cast.js:27:11)
+    at ObjectId.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1064:15)
+    at ObjectId.castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1021:15)
+    at cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\cast.js:269:32)
+    at Query.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:3109:12)
+    at Query._castConditions (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1145:10)
+    at Query._findOne (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1352:8)
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:250:8
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+

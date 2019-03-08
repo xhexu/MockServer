@@ -1,0 +1,241 @@
+[2018-01-26T10:48:08.614] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/project/update
+request client ip:  ::ffff:172.24.12.58
+request body: 
+{"_id":"5a571716cff65ed09c641f98","NAME":"工程名被更新23","URL":"/URL23","MOCK_URL":"/url13","RESPONSE_ROLE":"{\"message\"333:\"string\",\"data\":{\"data\":\"array\"}}","__v":"0","UPDATE_TIME":"2018-01-11T07:49:42.792Z","CREATE_TIME":"2018-01-11T08:55:09.000Z","ICON":"图标","STATE":0,"REMARK":"描述说明信息"}
+response time: 4
+err name: Error
+err message: Unexpected number
+err stack: Error: Unexpected number
+    at Object.checkMockRole (D:\kyee_fe\kyee_mock\middlewares\index.js:69:23)
+    at Object.exports.updateById (D:\kyee_fe\kyee_mock\controllers\project.js:70:19)
+    at next (native)
+    at Object.dispatch (D:\kyee_fe\kyee_mock\node_modules\koa-router\lib\router.js:334:12)
+    at next (native)
+    at Object.allowedMethods (D:\kyee_fe\kyee_mock\node_modules\koa-router\lib\router.js:369:12)
+    at next (native)
+    at Object.dispatch (D:\kyee_fe\kyee_mock\node_modules\koa-router\lib\router.js:334:12)
+    at next (native)
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:87:16)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+
+[2018-01-26T10:49:17.636] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/interface/list?PROJECT_ID=%22xxxxxxx%22
+request client ip:  ::ffff:172.24.12.58
+request query:  {"PROJECT_ID":"\"xxxxxxx\"","STATE":0}
+response time: 3
+err name: CastError
+err message: Cast to ObjectId failed for value ""xxxxxxx"" at path "_PROJECT" for model "Interface"
+err stack: CastError: Cast to ObjectId failed for value ""xxxxxxx"" at path "_PROJECT" for model "Interface"
+    at MongooseError.CastError (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\error\cast.js:27:11)
+    at ObjectId.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1064:15)
+    at ObjectId.castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1021:15)
+    at cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\cast.js:269:32)
+    at Query.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:3109:12)
+    at Query._castConditions (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1145:10)
+    at Query._find (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1160:8)
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:250:8
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2018-01-26T10:49:57.985] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/interface/list?PROJECT_ID=%22xxxxxxx%22
+request client ip:  ::ffff:172.24.12.58
+request query:  {"PROJECT_ID":"\"xxxxxxx\"","STATE":0}
+response time: 19
+err name: CastError
+err message: Cast to ObjectId failed for value ""xxxxxxx"" at path "_PROJECT" for model "Interface"
+err stack: CastError: Cast to ObjectId failed for value ""xxxxxxx"" at path "_PROJECT" for model "Interface"
+    at MongooseError.CastError (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\error\cast.js:27:11)
+    at ObjectId.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1064:15)
+    at ObjectId.castForQuery (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schema\objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\schematype.js:1021:15)
+    at cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\cast.js:269:32)
+    at Query.cast (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:3109:12)
+    at Query._castConditions (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1145:10)
+    at Query._find (D:\kyee_fe\kyee_mock\node_modules\mongoose\lib\query.js:1160:8)
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:250:8
+    at D:\kyee_fe\kyee_mock\node_modules\mongoose\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+*************** error log end ***************
+
+[2018-01-26T11:48:43.453] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mock
+request client ip:  ::1
+request query:  {}
+response time: 3
+err name: Error
+err message: 模拟数据请求不规范，请校验URL
+err stack: Error: 模拟数据请求不规范，请校验URL
+    at Promise (D:\kyee_fe\kyee_mock\controllers\mock.js:105:24)
+    at resolveParams (D:\kyee_fe\kyee_mock\controllers\mock.js:82:12)
+    at Object.exports.getMock (D:\kyee_fe\kyee_mock\controllers\mock.js:14:28)
+    at next (native)
+    at Object.dispatch (D:\kyee_fe\kyee_mock\node_modules\koa-router\lib\router.js:334:12)
+    at next (native)
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:87:16)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+
+[2018-01-26T16:07:55.188] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /url13/mock1523332
+request client ip:  ::ffff:172.24.12.58
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot set property 'responseTime' of undefined
+err stack: TypeError: Cannot set property 'responseTime' of undefined
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:90:32)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+
+[2018-01-26T16:08:00.083] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /url13/mock1523332
+request client ip:  ::ffff:172.24.12.58
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot set property 'responseTime' of undefined
+err stack: TypeError: Cannot set property 'responseTime' of undefined
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:90:32)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+
+[2018-01-26T16:09:30.170] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /url13/mock1523332
+request client ip:  ::ffff:172.24.12.58
+request query:  {}
+response time: 6
+err name: TypeError
+err message: Cannot set property 'responseTime' of undefined
+err stack: TypeError: Cannot set property 'responseTime' of undefined
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:90:32)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+
+[2018-01-26T16:09:32.483] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /url13/mock1523332
+request client ip:  ::ffff:172.24.12.58
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot set property 'responseTime' of undefined
+err stack: TypeError: Cannot set property 'responseTime' of undefined
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:90:32)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+
+[2018-01-26T16:09:43.315] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /url13/mock1523332
+request client ip:  ::ffff:172.24.12.58
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot set property 'responseTime' of undefined
+err stack: TypeError: Cannot set property 'responseTime' of undefined
+    at Object.exports.onerror (D:\kyee_fe\kyee_mock\middlewares\index.js:90:32)
+    at next (native)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:65:19)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+    at D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:54:5
+    at Object.co (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:50:10)
+    at Object.toPromise (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:118:63)
+    at next (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:99:29)
+    at onFulfilled (D:\kyee_fe\kyee_mock\node_modules\koa\node_modules\co\index.js:69:7)
+*************** error log end ***************
+

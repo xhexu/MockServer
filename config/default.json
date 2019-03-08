@@ -1,0 +1,15 @@
+{
+  "port": 7300,
+  "routerPrefix": {
+    "app":"/appServices",
+    "mock": "/mock",
+    "mockTest": "/mockTest",
+    "api": "/api",
+    "kyeeUI":"/kyeeUI",
+    "kyeeMock":"/kyeeMock"
+  },
+  "db": "mongodb://mock:mock123@localhost/mock",
+  "paramsRole": {
+    "OP_NAME": "OP_NAME"
+  }
+}

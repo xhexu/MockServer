@@ -1,0 +1,72 @@
+[2018-01-18T14:25:58.912] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/project
+request client ip:  ::1
+request query:  {"STATE":0}
+response time: 512
+response status: 200
+response body: 
+{"timeStamp":"2018-01-18 14:25:58","success":true,"message":"查询成功","data":[{"_id":"5a571716cff65ed09c641f98","NAME":"工程名被更新23","URL":"/URL23","MOCK_URL":"/url13","RESPONSE_ROLE":"{\"message\":\"string\",\"data\":{\"data\":\"array\"}}","__v":0,"UPDATE_TIME":"2018-01-11T07:49:42.792Z","CREATE_TIME":"2018-01-11T08:55:09.000Z","ICON":"图标","STATE":0,"REMARK":"描述说明信息"},{"_id":"5a5dbcabae8e41b36adb51f2","NAME":"完整功能测试","URL":"http://www.baidumock.com","MOCK_URL":"/mock10","RESPONSE_ROLE":"{\"message\":\"String\",\"data\":\"Array\"}","__v":0,"UPDATE_TIME":"2018-01-16T08:49:47.749Z","CREATE_TIME":"2018-01-16T08:49:47.749Z","ICON":"images/icon.jpg","STATE":0,"REMARK":"完整功能测试项目"}]}
+*************** response log end ***************
+
+[2018-01-18T14:27:06.146] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/interface/list
+request client ip:  ::1
+request query:  {}
+response time: 15
+response status: 200
+response body: 
+{"timeStamp":"2018-01-18 14:27:06","success":false,"message":"查询失败\n项目ID不能为空\n","data":[{"PROJECT_ID":"项目ID不能为空"}]}
+*************** response log end ***************
+
+[2018-01-18T15:39:22.209] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/project
+request client ip:  ::1
+request query:  {"STATE":0}
+response time: 54
+response status: 200
+response body: 
+{"timeStamp":"2018-01-18 15:39:22","success":true,"message":"查询成功","data":[{"_id":"5a571716cff65ed09c641f98","NAME":"工程名被更新23","URL":"/URL23","MOCK_URL":"/url13","RESPONSE_ROLE":"{\"message\":\"string\",\"data\":{\"data\":\"array\"}}","__v":0,"UPDATE_TIME":"2018-01-11T07:49:42.792Z","CREATE_TIME":"2018-01-11T08:55:09.000Z","ICON":"图标","STATE":0,"REMARK":"描述说明信息"},{"_id":"5a5dbcabae8e41b36adb51f2","NAME":"完整功能测试","URL":"http://www.baidumock.com","MOCK_URL":"/mock10","RESPONSE_ROLE":"{\"message\":\"String\",\"data\":\"Array\"}","__v":0,"UPDATE_TIME":"2018-01-16T08:49:47.749Z","CREATE_TIME":"2018-01-16T08:49:47.749Z","ICON":"images/icon.jpg","STATE":0,"REMARK":"完整功能测试项目"}]}
+*************** response log end ***************
+
+[2018-01-18T15:39:39.658] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/project/list
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-01-18T15:39:39.849] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/project/image/404.jpg
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-01-18T15:39:39.898] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /css/style.css
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
